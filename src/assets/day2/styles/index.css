@@ -1,0 +1,82 @@
+@import url("./fonts.css");
+
+.commerce-cart-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eff0f6;
+  display: grid;
+  place-items: center;
+}
+.bg-image {
+  position: absolute;
+  height: 300px;
+  aspect-ratio: 1/1;
+}
+.left-image {
+  top: 12%;
+  left: -6%;
+}
+.top-right-image {
+  top: 0;
+  right: 0;
+}
+.bottom-right-image {
+  bottom: 0;
+  right: 0;
+}
+.menus-container {
+    width: 800px;
+    height: 90vh;
+    padding: 35px;
+    display: flex;
+    gap: 5%;
+    box-shadow: 0px 0px 70px #c7cbe32c;
+    border-radius: 25px ;
+    -webkit-border-radius: 25px ;
+    -moz-border-radius: 25px ;
+    -ms-border-radius: 25px ;
+    -o-border-radius: 25px ;
+}
+.menu {
+  height: 100%;
+  background-color: white;
+  border-top-left-radius: 25px;
+  padding: 32px 0px 32px 24px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.larger-menu {
+  width: 52%;
+}
+.smaller-menu {
+  padding: 32px 0px 32px 16px;
+  width: 43%;
+}
+
+.menu > h1 {
+  text-transform: capitalize;
+  font-size: 24px;
+  word-spacing: 2px;
+  font-family: "Poppins";
+  margin-bottom: 28px;
+}
+
+.menu > h4 {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 24px;
+  word-spacing: 2px;
+  margin-top: 175px;
+}
+
+.breaker {
+  width: 95%;
+  height: 4px;
+  background-color: #bfbefc;
+  margin: 24px 0;
+}
+
+
+
